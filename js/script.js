@@ -227,3 +227,4 @@ for(let iterator in mobiles){
     mobileDisplay.appendChild(PaginationClone);
   mobileDisplaySection.appendChild(mobileDisplay);
   }
+  console.log("vignesh");
