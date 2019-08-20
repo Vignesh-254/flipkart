@@ -1,0 +1,38 @@
+.mobile-card {
+    width: 30%;
+    display: inline-block;
+    border: 1px solid black;
+    background-color: lightblue;
+    margin:10px;
+    box-shadow: 
+}
+.mobiles-section{
+	margin:30px;
+	border:1px solid red;
+}
+.mobile-card:hover{
+	background-color: grey;
+	border:1px solid blue;
+}
+.mobile-brand-property,.mobiles-section-property,.mobile-card-template,.pagination-property{
+	display: none;
+}
+.mobile-brand{
+	text-align:center;
+	font-size:24px;
+	font-weight: bold;
+}
+.pagination a {
+  color: black;
+  /*float: left;*/
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
